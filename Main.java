@@ -73,7 +73,7 @@ public class Main {
         String brandNum;
         double priceNum = 0;
 
-        System.out.print("What do you want to Search? (ID, Model, Brand, or price)?: ");
+        System.out.print("What do you want to Search? (ID, Model, Brand, or Price)?: ");
         Search = scanner.nextLine();
 
         if (Search.equalsIgnoreCase("ID")) {
